@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://loansdb:5432/loansdb
     username: example
-    password: example_pw
+    password: example
     driver-class-name: org.postgresql.Driver
 
 build:

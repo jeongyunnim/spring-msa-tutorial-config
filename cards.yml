@@ -2,9 +2,9 @@ spring:
   datasource:
     url: jdbc:postgresql://cardsdb:5431/cardsdb
     username: example
-    password: example_pw
+    password: example
     driver-class-name: org.postgresql.Driver
-    
+
 build:
   version: "3.0"
 
