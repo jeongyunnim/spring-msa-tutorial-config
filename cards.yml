@@ -1,3 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://cardsdb:5431/cardsdb
+    username: example
+    password: example_pw
+    driver-class-name: org.postgresql.Driver
+    
 build:
   version: "3.0"
 
@@ -9,3 +16,4 @@ cards:
   onCallSupport:
     - (412) 419-3491
     - (915) 382-1932
+

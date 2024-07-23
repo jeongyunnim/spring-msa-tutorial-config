@@ -1,3 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://loansdb:5432/loansdb
+    username: example
+    password: example_pw
+    driver-class-name: org.postgresql.Driver
+
 build:
   version: "3.0"
 
@@ -9,3 +16,4 @@ loans:
   onCallSupport:
     - (452) 456-2176
     - (546) 764-8934
+
