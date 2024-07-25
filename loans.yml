@@ -1,9 +1,9 @@
-spring:
-  datasource:
-    url: jdbc:postgresql://loansdb:5432/loansdb
-    username: example
-    password: example
-    driver-class-name: org.postgresql.Driver
+# spring:
+#   datasource:
+#     url: jdbc:postgresql://loansdb:5432/loansdb
+#     username: example
+#     password: example
+#     driver-class-name: org.postgresql.Driver
 
 build:
   version: "3.0"
